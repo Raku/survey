@@ -1,0 +1,13 @@
+{
+    "perl"          : "6.*",
+    "name"          : "Testing scripts",
+    "version"       : "0.1.0",
+    "author"        : "github:JJ",
+    "authors"       : [ "github:JJ" ],
+    "description"   : "Utils for CSV processing",
+    "depends"       : [
+        "Text::CSV"],
+    "provides" : {},
+    "source-url"    : "git://github.com/perl6/p6survey",
+    "test-depends" : [ "Test::META" ]
+}
