@@ -5,15 +5,17 @@ use v6;
 use Text::CSV;
 
 
-sub MAIN( $column1 = 2, $column2 = 4 ) {
+sub MAIN( $column1 = 2, $column2 = 4, $column-name1= "Perl user?", $column-name2 = "Age group" ) {
     my @survey-data = csv(in => "../june2018/Perl6 User Survey.csv" );
 
     my %cross;
     my $node-set;
     for @survey-data[1..*] -> $line {
-        $node-set ∪= $line[$column1];
-        $node-set ∪= $line[$column2];
-        %cross{$line[$column1]}{$line[$column2]}++;
+        my $val1 = "$column-name1 → $line[$column1]";
+        my $val2 = "$column-name2 → $line[$column2]";
+        $node-set ∪= $val1;
+        $node-set ∪= $val2;
+        %cross{$val1}{$val2}++;
     }
 
     say "*Vertices ", $node-set.elems;
