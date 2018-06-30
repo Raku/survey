@@ -22,7 +22,7 @@ sub MAIN( $column1 = 2, $column2 = 4, $column-name1= "Perl 5 user?", $column-nam
 
     my %inverse-mapping;
     my $idx = 0;
-    for $node-set.keys.sort( { ( $^b ~~ /(\d+)/ ) <=> ( $^a ~~ / (\d+) / ) } ) -> $val {
+    for $node-set.keys.sort( { ( $^b ~~ /(\d+)/ ) <=> ( $^a ~~ / (\d+) /) } ) -> $val {
         ++$idx;
         %inverse-mapping{$val} = $idx;
         say "$idx \"$val\"";

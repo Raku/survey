@@ -1,0 +1,57 @@
+*Vertices 17
+1 "10 (Doc score)"
+2 "9 (Doc score)"
+3 "8 (Doc score)"
+4 "7 (Doc score)"
+5 "Less than a month (Using Perl6 for)"
+6 "More than a year (Using Perl6 for)"
+7 " (Using Perl6 for)"
+8 "6 (Doc score)"
+9 "I've used it previously, but I'm not using it anymore (Using Perl6 for)"
+10 "Just started (Using Perl6 for)"
+11 "Less than a year (Using Perl6 for)"
+12 "5 (Doc score)"
+13 "4 (Doc score)"
+14 "3 (Doc score)"
+15 "2 (Doc score)"
+16 "1 (Doc score)"
+17 " (Doc score)"
+*arcs
+7 17 1 
+7 8 1 
+5 2 1 
+5 12 1 
+5 4 3 
+5 3 4 
+5 8 2 
+10 2 1 
+10 14 1 
+10 4 9 
+10 17 3 
+10 15 1 
+10 3 5 
+10 8 4 
+10 16 1 
+10 13 1 
+11 1 2 
+11 14 2 
+11 2 2 
+11 12 3 
+11 4 7 
+11 3 22 
+11 8 4 
+11 13 2 
+9 14 1 
+9 12 3 
+9 4 6 
+9 3 2 
+9 17 1 
+9 8 6 
+9 16 3 
+6 14 1 
+6 2 7 
+6 12 9 
+6 4 50 
+6 15 1 
+6 3 35 
+6 8 12 
