@@ -1,0 +1,75 @@
+*Vertices 31
+1 "I was here in 2012 so yeah, I've had the compiler change underneath my modules. (Issues with Perl6)"
+2 "For certain, but I released my first module 8 years ago. Pugs, Niecza, Parrot, Nom, GLR, Chrismas; the language was still evolving.  (Issues with Perl6)"
+3 "not enough experience yet (Issues with Perl6)"
+4 "One module drastically changed its interface between two versions, so I had to change to something else (Issues with Perl6)"
+5 "I survived NOM earthquake in Perl6 ecosystem :) (Issues with Perl6)"
+6 "Only during the times of the GLR (Issues with Perl6)"
+7 "Less than a month (Using Perl6 for)"
+8 "The community warns on my modules potentially breaking, and sometimes supply patches way before it becomes an issue (Issues with Perl6)"
+9 " (Issues with Perl6)"
+10 "More than a year (Using Perl6 for)"
+11 "did not use Perl 6 it recently (Issues with Perl6)"
+12 "No (Issues with Perl6)"
+13 "Challenges building Rakudo on OpenBSD (Issues with Perl6)"
+14 "Some incompatibilities in the OS X ecosystem with Perl6 web packages and system OpenSSL (Issues with Perl6)"
+15 "there was a module I wanted to try which didn't work (bitrot) and I couldn't figure out how it was supposed to work to update it (Issues with Perl6)"
+16 "I have been using Perl6 seance the start!  It’s fun to go back at some old code and see what still works and what doesn’t.  (Issues with Perl6)"
+17 "No, but I still find bugs and traps every now and then as I try to learn and use the language (Issues with Perl6)"
+18 "Had to use '--force-build' to install YAML::Parser::LibYAML on recent rakudo versions (Issues with Perl6)"
+19 "Yes, newer Rakudo release had a regression (a bug or an unintended change) (Issues with Perl6)"
+20 " (Using Perl6 for)"
+21 "Difficult to install on my CentOs webserver without root access.   (Issues with Perl6)"
+22 "not implemented yet messages are so frustrating :)) (Issues with Perl6)"
+23 "Only before Christmas and version 6c, which was to be expected. (Issues with Perl6)"
+24 "Yes, my software stopped working properly and I had to tweak it to match changes in Rakudo (Issues with Perl6)"
+25 "I've used it previously, but I'm not using it anymore (Using Perl6 for)"
+26 "I never really got that far. (Issues with Perl6)"
+27 "almost all of my perl 6 programs were one-offs for stuff like advent of code and utilized whatever version happened to be available in glot.io or whatever other online environment was available; I've never had to maintain a program (Issues with Perl6)"
+28 "Maybe, it wasn't a big problem (Issues with Perl6)"
+29 "Just started (Using Perl6 for)"
+30 "i watch perl6 since it was announced, i like it very much but i haven't used it yet :( (Issues with Perl6)"
+31 "Less than a year (Using Perl6 for)"
+*arcs
+20 9 2 
+7 28 1 
+7 17 1 
+7 12 9 
+29 13 1 
+29 4 1 
+29 28 4 
+29 9 3 
+29 3 1 
+29 12 13 
+29 30 1 
+29 19 1 
+29 24 1 
+31 14 1 
+31 9 1 
+31 28 12 
+31 12 26 
+31 11 1 
+31 21 1 
+31 19 1 
+31 24 1 
+25 28 3 
+25 9 3 
+25 12 10 
+25 22 1 
+25 26 1 
+25 24 2 
+25 19 2 
+10 28 41 
+10 8 1 
+10 18 1 
+10 12 46 
+10 15 1 
+10 5 1 
+10 27 1 
+10 23 1 
+10 6 1 
+10 1 1 
+10 2 1 
+10 16 1 
+10 24 12 
+10 19 6 
