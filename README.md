@@ -6,15 +6,16 @@
   
 ## Some charts
 
-*
-  [Age group vs previous use of Perl](html/sankey-agegroup-vs-perluse.html)
+* [Age group vs previous use of Perl](html/sankey-agegroup-vs-perluse.html)
   
 * [Use of Perl 6 vs. documentation score](html/sankey-perl6use-vs-docscore.html)
 
-*
-  [Use of Perl 6 vs. issues with installation](html/sankey-perl6use-vs-issues.html).
+* [Use of Perl 6 vs. issues with installation](html/sankey-perl6use-vs-issues.html).
   
 ## Some boxplots
+
+Documentation score vs. community score, in two different
+visualizations.
 
 ![Documentation vs. Community score](illos/documentation-vs-community-boxplot.png)
 
