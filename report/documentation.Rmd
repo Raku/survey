@@ -1,0 +1,38 @@
+---
+title: "Perl 6 documentation in the June 2018 user survey"
+author: "JJ Merelo"
+date: "3 de julio de 2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+require(ggplot2)
+require(ggthemes)
+
+data <- read.csv("../june2018/Perl6\ User\ Survey.csv")
+```
+##Introduction
+
+The [Perl 6 user survey](https://perl6.github.io/p6survey) took place in the last days of June 2018. 220 developers provided answers in a variety of topics, that went from their relationship with the language to other aspects, among which the most important for me, and the focus of this report, is the documentation score.
+
+The [Perl 6 documentation](https://docs.perl6.org), as the rest of the Perl 6 project, is an almost totally volunteer effort whose development takes place in a [GitHub repository](https://github.com/perl6/doc). Perception of quality is important, so that is why we will try to analyze, in this report, how the documentation is scored among the survey responders. But first, the summary:
+
+```{r summary, echo=FALSE}
+summary(data$"How.would.you.rate.the.Perl.6.documentation.")
+```
+So the average is `r mean(data$How.would.you.rate.the.Perl.6.documentation.,na.rm=T)`, with the median on `r median(data$How.would.you.rate.the.Perl.6.documentation.,na.rm=T)`. It's a low grade, and we are interested in finding some causes so that it can be improved in the future.
+
+## Evolution of score with responses
+
+The difusion of the survey was first made among the participants in the #perl6 IRC channel, and then through different media: Twitter, Facebook, eventually making it to the Perl6 Weekly and mailing list. We will try to consider time of response a variable, and analyze how score changes with it. For this response, score was an integer between 0 and 10.
+
+```{r time, echo=FALSE}
+moving.average <- read.csv("../processed-data/documentation-score-moving-average.dat")
+ggplot(moving.average,aes(x=as.numeric(row.names(moving.average)),y=Average,group=1))+geom_line()+theme_tufte()+xlab('Sequence')
+```
+
+This moving average was computed by averaging 30 consecutive scores, and it clearly shows there's a certain dynamic to it. The score goes initially up, then slightly down, then it goes on a deep dive to retrieve a high again, to eventually settle around 6.5 in the late comers. Peaks happen around the 50th response, approximately at the time it was spread over Twitter, and again at the 120th response, approximately at the time it showed up on the Perl 6 weekly. However, there are deep dives here and there showing an average of less than 6.5; the scores given by the inner circle, those that responded the first, are consistently below 7. This might indicate that people who are familiar with the language get less mileage out of the documentation than newcomers. But we will have to cross-check this looking at other variables.
+
+## Cross-checking against community score
+
+Perl 6 values highly its community, which in fact is the source of the language. 
