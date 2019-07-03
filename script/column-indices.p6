@@ -13,4 +13,3 @@ for @survey-data[0].list -> $q {
 }
 
 
-
