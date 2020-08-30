@@ -1,7 +1,7 @@
 # Perl 6 Survey Results
 
 Probably better seen in
-this [published web](https://perl6.github.io/p6survey/)
+this [published web](https://raku.github.io/survey/).
 
 * Latest Survey (June 2019): [Google Form results](https://docs.google.com/spreadsheets/d/1q9iZ_PTDvlJzjUm5ZZw1d2t0jOdWwYJL96fFjn0ooEY/edit?usp=sharing)
 * [June 2018 results](https://docs.google.com/forms/d/e/1FAIpQLSdqrrcxTQWuN1ISAvz3j_XkpCCc2AuQw9uKgAhTivxHBFsweg/viewanalytics)
