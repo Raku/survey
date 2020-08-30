@@ -1,4 +1,4 @@
-# Perl 6 Survey Results
+# Raku surveys results
 
 Probably better seen in
 this [published web](https://raku.github.io/survey/).
